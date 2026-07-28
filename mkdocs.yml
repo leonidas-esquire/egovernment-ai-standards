@@ -14,6 +14,10 @@ theme:
     - content.code.copy
     - toc.follow
 
+
+exclude_docs: |
+  README.md
+
 plugins:
   - search
   - mermaid2
@@ -22,13 +26,23 @@ plugins:
 
 nav:
   - Home: index.md
+
   - Vision:
-      - vision/index.md
+      - Overview: vision/index.md
+      - Standards Vision: vision/VISION.md
+
   - Governance:
-      - governance/index.md
+      - Overview: governance/index.md
+
   - Standards:
-      - standards/index.md
+      - Overview: standards/index.md
       - EGS: standards/egs.md
       - CDF: standards/cdf.md
       - OKF: standards/okf.md
       - LEONIDAS: standards/leonidas.md
+
+  - Manual:
+      - EGS-0000 Standards Manual: manual/EGS-0000-eGovernment-ai-Standards-Manual.md
+
+  - Roadmap:
+      - Public Roadmap: roadmap/ROADMAP.md
