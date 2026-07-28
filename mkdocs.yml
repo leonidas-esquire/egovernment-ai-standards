@@ -49,6 +49,9 @@ nav:
   - Conformance:
       - Overview: conformance/index.md
 
+  - Reference Implementations:
+      - Overview: reference-implementations/index.md
+
   - Manual:
       - EGS-0000 Standards Manual: manual/EGS-0000-eGovernment-ai-Standards-Manual.md
 
