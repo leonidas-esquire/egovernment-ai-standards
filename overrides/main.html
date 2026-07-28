@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block announce %}
+<div class="egov-banner">
+Open Standards for AI-Ready Government Systems
+</div>
+{% endblock %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="{{ 'assets/css/egov.css' | url }}">
+<script defer src="{{ 'assets/js/egov.js' | url }}"></script>
+{% endblock %}

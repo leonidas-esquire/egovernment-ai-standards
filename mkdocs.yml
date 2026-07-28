@@ -3,6 +3,7 @@ site_description: Open standards for responsible AI, knowledge systems, and lear
 site_url: https://standards.egovernment.ai
 
 theme:
+  custom_dir: overrides
   name: material
   features:
     - navigation.instant
