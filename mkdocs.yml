@@ -40,6 +40,9 @@ nav:
       - OKF: standards/okf.md
       - LEONIDAS: standards/leonidas.md
 
+  - Catalog:
+      - Standards Catalog: catalog/index.md
+
   - Manual:
       - EGS-0000 Standards Manual: manual/EGS-0000-eGovernment-ai-Standards-Manual.md
 
