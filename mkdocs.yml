@@ -46,6 +46,9 @@ nav:
   - Catalog:
       - Standards Catalog: catalog/index.md
 
+  - Conformance:
+      - Overview: conformance/index.md
+
   - Manual:
       - EGS-0000 Standards Manual: manual/EGS-0000-eGovernment-ai-Standards-Manual.md
 
