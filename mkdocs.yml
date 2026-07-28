@@ -35,6 +35,7 @@ nav:
 
   - Governance:
       - Overview: governance/index.md
+      - EGS-0100 Governance Charter: governance/EGS-0100-Governance-Charter.md
 
   - Standards:
       - Overview: standards/index.md
