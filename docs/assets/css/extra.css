@@ -1,0 +1,71 @@
+/* --------------------------------------------------
+   eGovernment.ai Standards Theme
+-------------------------------------------------- */
+
+:root {
+  --md-primary-fg-color: #0B3D91;
+  --md-primary-fg-color--light: #2563eb;
+  --md-primary-fg-color--dark: #082c6c;
+  --md-accent-fg-color: #00B8D9;
+}
+
+.md-header {
+  background: linear-gradient(90deg, #0B3D91 0%, #0F5CC0 100%);
+}
+
+.md-typeset h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: .25em;
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: .25rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.grid.cards {
+  margin-top: 2rem;
+}
+
+.grid.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.grid.cards li {
+  border-radius: 16px;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  transition: all .2s ease;
+}
+
+.grid.cards li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0,0,0,.12);
+}
+
+[data-md-color-scheme="slate"] .grid.cards li {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.md-footer {
+  background: #0B3D91;
+}
+
+.md-typeset code {
+  border-radius: 6px;
+}

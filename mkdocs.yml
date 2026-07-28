@@ -58,3 +58,6 @@ nav:
 
   - Roadmap:
       - Public Roadmap: roadmap/ROADMAP.md
+
+extra_css:
+  - assets/css/extra.css
