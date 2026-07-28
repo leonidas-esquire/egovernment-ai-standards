@@ -26,6 +26,9 @@ plugins:
 nav:
   - Home: index.md
 
+  - Getting Started:
+      - Overview: getting-started/index.md
+
   - Vision:
       - Overview: vision/index.md
       - Standards Vision: vision/VISION.md
