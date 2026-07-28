@@ -22,7 +22,6 @@ plugins:
   - search
   - mermaid2
   - git-revision-date-localized
-  - awesome-pages
 
 nav:
   - Home: index.md
