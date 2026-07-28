@@ -1,0 +1,34 @@
+site_name: eGovernment.ai Standards
+site_description: Open standards for responsible AI, knowledge systems, and learning.
+site_url: https://standards.egovernment.ai
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - mermaid2
+  - git-revision-date-localized
+  - awesome-pages
+
+nav:
+  - Home: index.md
+  - Vision:
+      - vision/index.md
+  - Governance:
+      - governance/index.md
+  - Standards:
+      - standards/index.md
+      - EGS: standards/egs.md
+      - CDF: standards/cdf.md
+      - OKF: standards/okf.md
+      - LEONIDAS: standards/leonidas.md
