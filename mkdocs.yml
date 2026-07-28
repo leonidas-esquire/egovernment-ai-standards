@@ -61,3 +61,7 @@ nav:
 
 extra_css:
   - assets/css/extra.css
+
+
+extra_css:
+  - assets/css/design-system.css
